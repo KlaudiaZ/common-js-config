@@ -1,0 +1,19 @@
+{
+  "name": "@klaudia-z/common-js-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KlaudiaZ/common-js-config.git"
+  },
+  "author": "KlaudiaZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KlaudiaZ/common-js-config/issues"
+  },
+  "homepage": "https://github.com/KlaudiaZ/common-js-config#readme"
+}
