@@ -1,6 +1,6 @@
 {
   "name": "@klaudia-z/common-js-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package containing configuration files for various libraries I use in my private projects.",
   "main": "index.js",
   "repository": {
