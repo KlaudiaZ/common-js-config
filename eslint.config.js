@@ -29,10 +29,6 @@ module.exports = {
     },
     "rules": {
         "prettier/prettier": "error",
-        "linebreak-style": [
-            "error",
-            "windows"
-        ],
         "no-console": [
             "warn",
             {
