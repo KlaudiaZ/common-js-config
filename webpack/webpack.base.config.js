@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
-module.exports = (env, APP_DIR) => {
+module.exports = (env, APP_DIR, aliases = {}) => {
 	const { PLATFORM, VERSION } = env;
 	return merge([
 		{
@@ -44,7 +44,7 @@ module.exports = (env, APP_DIR) => {
 			resolve: {
 				extensions: [".js", ".jsx"],
 				alias: {
-					App: path.resolve(__dirname, "../src/app")
+					...aliases
 				}
 			},
 			plugins: [
