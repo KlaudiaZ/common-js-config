@@ -2,8 +2,22 @@
 
 ## Usage:
 
-### Babel, esLint:
-Simply require each of the config files you need in its respective .rc file in your project.
+### Babel:
+Require the config file in babel.rc file in your project.
+
+### Eslint:
+1. Require either eslintBase.config or eslintReact.config in eslint.rc file in your project. 
+2. Call the config function (optionally pass config parameters) and assign to module.exports.
+
+#### Options:
+##### eslintBase:
+- (number) ecmaVersion (default: 6)
+- (object) env: { browser: boolean (default: true), node: boolean (default: false) }
+
+##### eslintReact:
+- (number) ecmaVersion (default: 6)
+- (boolean) jsx (default: true)
+- (object) env: { browser: boolean (default: true), node: boolean (default: false) }
 
 ### Webpack:
 1. Import desired config file as a function
